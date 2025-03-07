@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	h1{
+		color:orangered;
+		text-align:center;
+		font-size:80px;
+		width : 700px;
+		height : 360px;
+		border : 1px dotted lightpink;
+		margin : auto;
+		line-height : 360px;
+	}
+	button{
+		width : 150px;
+		height : 40px;
+		font-weight : bold;
+		font-size : 18px;
+		border : none;
+		background : yellow;
+		color : black;
+		border-radius : 8px;
+		
+		&:hover{
+			cursor : pointer;
+			background : black;
+			color : yellow;
+		}
+	}
+</style>
+</head>
+<body>
+	<h1>아 힘들다</h1>
+	
+	<hr>
+	<script>
+		// console.log(location);
+		function forwardRequestPage(){
+			location.href='http://127.0.0.1/bk/static/Request_Page.html';
+		}
+	</script>
+	<button onclick="forwardRequestPage();">
+		집에 가고 싶지?
+	</button>
+</body>
+</html>
