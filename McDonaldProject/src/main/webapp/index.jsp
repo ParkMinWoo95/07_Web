@@ -27,5 +27,17 @@
 	 -->
 	
 	<a href="sc">왜 안씀?</a>
+	
+	<hr>
+	
+	<a href="include">포함</a>
+	<br/>
+	<a href="forward">포워드 JSP로 이동</a>
+	
+	<hr>
+	
+	<a href="jstl">실과 바늘 배우러가기</a>
+	
+	
 </body>
 </html>
