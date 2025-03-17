@@ -7,6 +7,7 @@
 	<!-- typeAliases : 자바타입 별칭 짓기 -->
 	 <typeAliases>
 	 	<typeAlias type="com.kh.mfw.member.model.dto.MemberDTO" alias="memberDTO" />
+	 	<typeAlias type="com.kh.mfw.board.model.dto.BoardDTO" alias="boardDTO" />
 	 </typeAliases>
 
 	<!-- 
@@ -43,6 +44,7 @@
 	 <!-- mappers : 실행할 SQL문을 기록해둔 mapper파일을 등록 -->
 	 <mappers>
 	 	<mapper resource="/mappers/member-mapper.xml" />
+	 	<mapper resource="/mappers/board-mapper.xml" />
 	 </mappers>
 	 
 	 
